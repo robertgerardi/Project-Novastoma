@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">TestAppJava</string>
+    <string name="ble_connect">Connect</string>
+    <string name="ble_disconnected">Disconnected</string>
+
+    <string name="ble_text">Bluetooth Status</string>
+    <string name="ble_connected">Bluetooth Status: Connected</string>
+
+    <string name="ble_connecting">Attempting to Connect</string>
+
+    <string name="ble_disconnect">Disconnect</string>
+    <string name="DONE">DONE</string>
+    <string name="ZeroLevel">No Waste Detected</string>
+    <string name="LowLevel">Low</string>
+    <string name="MediumLevel">Half Way</string>
+    <string name="HighLevel">Critical!</string>
+
+</resources>

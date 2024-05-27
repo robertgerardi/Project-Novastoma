@@ -1,0 +1,48 @@
+// To get started, press Ctrl+Space to bring up the completion menu and view the available nodes.
+
+// You can also use the buttons in the sidebar to perform actions on nodes.
+// Actions currently available include:
+
+// * Enabling / disabling the node
+// * Adding the bus to a bus
+// * Removing the node
+// * Connecting ADC channels
+
+// For more help, browse the DeviceTree documentation at https://docs.zephyrproject.org/latest/guides/dts/index.html
+// You can also visit the nRF DeviceTree extension documentation at https://nrfconnect.github.io/vscode-nrf-connect/devicetree/nrfdevicetree.html
+
+#include <zephyr/dt-bindings/gpio/gpio.h>
+
+&xiao_d {
+    gpio-map = <0 0 &gpio0 2 0>,
+               <1 0 &gpio0 3 0>,
+               <2 0 &gpio0 28 0>,
+               <3 0 &gpio0 29 0>,
+               <4 0 &gpio0 4 0>,
+               <5 0 &gpio0 5 0>,
+               <6 0 &gpio1 11 0>,
+               <7 0 &gpio1 12 0>,
+               <8 0 &gpio1 13 0>,
+               <9 0 &gpio1 14 0>,
+               <10 0 &gpio1 15 0>;
+};
+
+&spi0 {
+	status = "disabled";
+};
+
+&spi1 {
+	status = "disabled";
+};
+
+&spi2 {
+	status = "disabled";
+};
+
+&spi3 {
+	status = "disabled";
+};
+
+&qspi {
+	status = "disabled";
+};
